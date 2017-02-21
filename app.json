@@ -1,0 +1,8 @@
+{
+  "name": "NoiseDetector",
+  "description": "Noise Detect System",
+  "repository": "https://github.com/mobilebiz/NoiseDetector",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static", "Twilio"],
+  "image": "heroku/nodejs"
+}
