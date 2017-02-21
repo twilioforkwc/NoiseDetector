@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "description": {
+    "2017/2/21": "新規作成"
+  },
+  "hostname": "https://xxxx.com",
+  "twilio": {
+    "Server": "xxxx.com",
+    "SID": "ACXXXXXXXXXXXXXXXXX",
+    "Token": "xxxxxxxxxxxxxx",
+    "From": "+8150XXXXXXXXX",
+    "sync": {
+      "serviceName": "NoiseDetector",
+      "sid": "ISXXXXXXXXXXXXX",
+      "apiKey": "SKXXXXXXXXXXXXXX",
+      "apiSecret": "xxxxxxxxxxxxxxxxxxxx"
+    }
+  },
+  "basicAuth": {
+    "user": "XXXXXX",
+    "pass": "XXXXXX"
+  }
+}
