@@ -32,6 +32,12 @@ app.get('/', (request, response) => {
   });
 });
 
+// 入力デバイス検出画面の表示
+app.get('/testInputId', (request, response) => {
+  response.render('pages/testInputId', {
+  });
+});
+
 // TwilioClinetのケイパビリティトークンを返す
 app.get('/token', (request, response) => {
   let results = {};

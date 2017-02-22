@@ -1,0 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  if (!navigator.mediaDevices || !navigator.mediaDevices.enumerateDevices) {
+    console.log("enumerateDevices() not supported.");
+    return;
+  }
+
+  // List cameras and microphones.
+
+  navigator.mediaDevices.enumerateDevices()
+  .then(function(devices) {
+    devices.forEach(function(device) {
+      console.log(device.kind + ": " + device.label +
+                  " id = " + device.deviceId);
+    });
+  })
+  .catch(function(err) {
+    console.log(err.name + ": " + error.message);
+  });
+
+});
+</script>
+<body>
+  <p>コンソールを確認してください</p>
+</body>
